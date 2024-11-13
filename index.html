@@ -9,6 +9,8 @@
 </head>
 
 <body>
+    <audio class="audio" src="/assets/audio/tudum-netflix-sound.mp3"></audio>
+
     <div class="conteiner-top">
         <header>
             <img id="logo" src="./assets/img/logo.png" alt="logo netflix">
@@ -18,9 +20,11 @@
 
     <main class="conteiner-principal">
         <div class="conteiner-video">
-            <video src="./assets/video/stranger-things.mp4" loop autoplay muted></video>
+            <video value="muted" class="video" src="./assets/video/stranger-things.mp4" loop autoplay muted></video>
             <button class="botao-som"><img src="./assets/img/alto-falante.png"></button>
         </div>
+
+        <!-- <div class="conteiner-info" onmouseenter="this.style.opacity='1';" onmouseleave="this.style.opacity='0';"></div> -->
 
         <div class="conteiner-info">
             <h1>Stranger Things</h1>
@@ -28,8 +32,9 @@
                 Situada na cidade ficcional de Hawkins, Indiana,
                 a trama começa no ano de 1983 com o desaparecimento do garoto Will.</p>
             <div class="conteiner-button">
-                <button class="botao-main">Assistir</button>
-                <button class="botao-main">Mais Informações</button>
+                <a href="https://www.netflix.com/br" target="_blank"><button
+                        class="botao-main botao-assistir">Assistir</button></a>
+                <button class="botao-main botao-mais-infos">Mais Informações</button>
             </div>
         </div>
 
@@ -37,53 +42,55 @@
 
             <img class="background" src="./assets/img/background.jpeg" alt="">
 
-        <section class="pagina-2">
-            
+            <section class="pagina-2">
+
                 <h2>Principais Filmes e Séries</h2>
                 <p class="p-pagina2">Confira os nossos lançamentos</p>
-        </section>
+            </section>
 
-        <div class="carrosel">
+            <div class="carrosel">
 
-            <div class="banner">
-                <div class="slider" style="--quantity: 7">
-                        
+                <div class="banner">
+                    <div class="slider" style="--quantity: 7">
+
                         <div class="item" style="--position: 1"><img src="./assets/img/equalizer.jpg"></div>
                         <div class="item" style="--position: 2"><img src="./assets/img/abyss.jpg"></div>
                         <div class="item" style="--position: 3"><img src="./assets/img/chokehold.jpg"></div>
                         <div class="item" style="--position: 4"><img src="./assets/img/f1.jpg"></div>
                         <div class="item" style="--position: 5"><img src="./assets/img//hunter.jpg"></div>
                         <div class="item" style="--position: 6"><img src="./assets/img/jaula.jpg"></div>
-                        <div class="item" style="--position: 7"><img src="./assets/img/lift.jpg"></div>          
+                        <div class="item" style="--position: 7"><img src="./assets/img/lift.jpg"></div>
+
+                    </div>
 
                 </div>
 
             </div>
 
-        </div>
+            <footer>
+                <img id="logo" src="./assets/img/logo.png">
+                <p>Todos os direitos reservados ©</p>
+            </footer>
 
-        <footer>
-            <img id="logo" src="./assets/img/logo.png">
-            <p>Todos os direitos reservados ©</p>
-        </footer>
+            <div class="modal">
+                <div class="conteudo-modal">
+                    <h3>Stranger Things</h3>
+                    <p>Stranger Things é uma série de ficção científica criada pelos irmãos Duffer para a
+                        Netflix. Situada na cidade ficcional de Hawkins, Indiana, a trama começa no ano de 1983 com o
+                        desaparecimento do garoto Will.</p>
 
-        <div class="modal">
-            <div class="conteudo-modal">
-                <h3>Stranger Things</h3>
-                <p>Stranger Things é uma série de ficção científica criada pelos irmãos Duffer para a
-                    Netflix. Situada na cidade ficcional de Hawkins, Indiana, a trama começa no ano de 1983 com o
-                    desaparecimento do garoto Will.</p>
-                
-                <p class="p-modal-rodape">Gênero:<strong> Ação</strong></p>
-                <p class="p-modal-rodape">Ano de lançamento:<strong> 2015</strong></p>
+                    <p class="p-modal-rodape">Gênero:<strong> Ação</strong></p>
+                    <p class="p-modal-rodape">Ano de lançamento:<strong> 2015</strong></p>
+
+                </div>
+
 
             </div>
-            
 
-        </div>
+
 
 </body>
 
-<script src="./assets/scripts.js"></script>
+<script src="./scripts.js"></script>
 
 </html>
