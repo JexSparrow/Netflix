@@ -100,6 +100,7 @@ p {
 button:hover {
     opacity: 1;
     transition: 0.6s opacity ease-in-out;
+    
 
 }
 
@@ -111,6 +112,14 @@ button:hover {
     border: none;
     opacity: 0.35;
     cursor: pointer;
+    transition: 1.5s ease-in-out;
+    
+}
+
+.botao-som:hover {
+
+    transform: translateY(-10px);
+
 }
 
 
@@ -134,16 +143,6 @@ button:hover {
     transform-style: preserve-3d;
     transform: perspective(1000px);
     animation: autoRun 20s linear infinite;
-}
-
-@keyframes autoRun {
-    from {
-        transform: perspective(1000px) rotateX(-10deg) rotateY(0deg)
-    }
-
-    to {
-        transform: perspective(1000px) rotateX(-10deg) rotateY(360deg)
-    }
 }
 
 .banner .slider .item {
@@ -270,4 +269,16 @@ footer p {
 
 .p-modal-rodape {
     text-align: right;
+
 }
+
+@keyframes autoRun {
+    from {
+        transform: perspective(1000px) rotateX(-10deg) rotateY(0deg)
+    }
+
+    to {
+        transform: perspective(1000px) rotateX(-10deg) rotateY(360deg)
+    }
+}
+
