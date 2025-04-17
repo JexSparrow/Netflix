@@ -87,8 +87,8 @@ p {
 
 .botao-main {
     border: none;
-    width: 155px;
     height: 28px;
+    padding: 0 20px;
     background: red;
     opacity: 0.5;
     color: rgb(255, 255, 255);
@@ -100,7 +100,7 @@ p {
 button:hover {
     opacity: 1;
     transition: 0.6s opacity ease-in-out;
-    
+
 
 }
 
@@ -113,7 +113,7 @@ button:hover {
     opacity: 0.35;
     cursor: pointer;
     transition: 1.5s ease-in-out;
-    
+
 }
 
 .botao-som:hover {
@@ -282,3 +282,85 @@ footer p {
     }
 }
 
+@media screen and (max-width: 710px) {
+
+    #avatar {
+        display: none;
+    }
+
+    #logo {
+        margin: 10px auto 0;
+    }
+
+    .botao-som {
+        position: absolute;
+        top: 45vh;
+
+    }
+
+    video {
+        height: 50vh;
+        object-fit: cover;
+        margin-bottom: 70px;
+
+    }
+
+    .conteiner-info {
+        position: absolute;
+        width: 55vw;
+        top: 12%;
+        display: flex;
+
+    }
+
+    .conteiner-info h1 {
+        font-size: 20px;
+    }
+
+    .conteiner-info p {
+        font-size: 12px;
+    }
+
+    .conteiner-button {
+        display: flex;
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        justify-content: center;
+
+        align-items: center;
+
+        gap: 10px;
+
+    }
+
+    button {
+        font-size: 10px;
+        padding: 0px 10px;
+        height: 5vh;
+
+    }
+
+    .carrosel {
+        display: none;
+    }
+
+    .background {
+        height: 50vh;
+    }
+
+    .pagina-2 h2 {
+        font-size: 20px;
+    }
+
+    .pagina-2 p {
+        font-size: 14px;
+    }
+
+    section {
+        position: absolute;
+        top: 70vh;
+    }
+
+
+}
