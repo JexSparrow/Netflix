@@ -339,7 +339,7 @@ footer p {
     .conteiner-button {
         display: flex;
         position: absolute;
-        top: 65%;
+        top: 63%;
         left: 50%;
         justify-content: center;
 
@@ -370,7 +370,7 @@ footer p {
 
     section {
         position: absolute;
-        top: 68vh;
+        top: 66vh;
         width: 90%;
     }
 
