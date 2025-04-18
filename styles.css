@@ -13,6 +13,11 @@ body {
     background-color: black;
 }
 
+.imagens-mobile {
+    display: none;
+}
+
+
 /* .conteiner-top {
     width: 100vw;
     height: 10vh;
@@ -284,6 +289,15 @@ footer p {
 
 @media screen and (max-width: 710px) {
 
+    .banner {
+        display: none;
+    }
+
+
+    body {
+        overflow-x: hidden;
+    }
+
     #avatar {
         display: none;
     }
@@ -324,7 +338,7 @@ footer p {
     .conteiner-button {
         display: flex;
         position: absolute;
-        top: 65%;
+        top: 60%;
         left: 50%;
         justify-content: center;
 
@@ -341,25 +355,38 @@ footer p {
 
     }
 
-    .carrosel {
-        display: none;
-    }
-
     .background {
-        height: 50vh;
+        height: 75vh;
     }
 
     .pagina-2 h2 {
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .pagina-2 p {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     section {
         position: absolute;
-        top: 70vh;
+        top: 68vh;
+        width: 90%;
+    }
+
+    .imagens-mobile {
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        top: 80%;
+        display: grid;
+        gap: 25px;
+        grid-template-columns: repeat(2, 35%);
+    }
+
+    .imagens-mobile img {
+        object-fit: contain;
+        width: 100%;
+        height: 85%;
     }
 
 
