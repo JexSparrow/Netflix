@@ -15,5 +15,19 @@ E para te manter sempre atualizado, um carrossel dinâmico apresenta os principa
 Tecnologias utilizadas: 
 
 <img src="https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black"/>
 
 Confira: (https://flixnet-landing-page.netlify.app/)
+
+<h2>Layout para Desktop</h2>
+
+![Captura de tela 2025-04-30 220210](https://github.com/user-attachments/assets/03bc7a03-6963-45eb-84a1-978c0746233a)
+![Captura de tela 2025-04-30 220237](https://github.com/user-attachments/assets/e124d37c-a0c5-47c7-932c-3116dc05a0a2)
+![Captura de tela 2025-04-30 220305](https://github.com/user-attachments/assets/821b3621-36e4-4beb-a55d-4dd1bb240bae)
+![Captura de tela 2025-04-30 220323](https://github.com/user-attachments/assets/dbe80f0c-e9ea-410e-8e7c-0fe062748db5)
+
+<h2>Layout para Dispositivos Móveis</h2>
+
+![Captura de tela 2025-04-30 215726](https://github.com/user-attachments/assets/4cf03a5b-bf5f-4437-a026-8400ba17d34d)
+![Captura de tela 2025-04-30 220151](https://github.com/user-attachments/assets/ce127ff1-fc56-4af2-9466-fbfba9411a89)
