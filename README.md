@@ -14,6 +14,6 @@ E para te manter sempre atualizado, um carrossel dinâmico apresenta os principa
 
 Tecnologias utilizadas: 
 
-<img href="https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white"/>
+<img src="https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white"/>
 
 Confira: (https://flixnet-landing-page.netlify.app/)
