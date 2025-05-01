@@ -308,9 +308,24 @@ footer p {
         margin: 10px auto 0;
     }
 
+    .conteiner-info {
+
+        gap: 10px;
+        width: 45vw;
+
+
+    }
+
     .botao-som {
         position: absolute;
         top: 45vh;
+
+    }
+
+    .botao-main {
+        border: none;
+        height: 26px;
+        padding: 0 10px;
 
     }
 
